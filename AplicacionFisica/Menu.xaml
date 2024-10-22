@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionFisica.Menu"
+             Title="Inicio"
+             BackgroundColor="White">
+
+    <VerticalStackLayout>
+
+        <Frame BackgroundColor="#5e5d99" CornerRadius="0" Padding="10" HasShadow="True" HeightRequest="130">
+            <VerticalStackLayout HorizontalOptions="Start">
+                <Label 
+            x:Name="Saludo"  
+            FontFamily="SimpleDay"
+            FontSize="24" 
+            TextColor="White" 
+            HorizontalOptions="Start" 
+            VerticalOptions="StartAndExpand" />
+
+           <Label
+            Text="Conoce tus métricas y lleva el control de cada trayecto."           
+            FontSize="16"
+            SemanticProperties.Description="slogan"
+            TextColor="White"
+            HorizontalOptions="Start" 
+            VerticalOptions="Start" 
+            Margin="0,10,0,0" 
+            LineBreakMode="WordWrap" />
+                
+            </VerticalStackLayout>
+        </Frame>
+        <BoxView BackgroundColor="#f19f32" HeightRequest="2" HorizontalOptions="FillAndExpand" VerticalOptions="End" />
+        <BoxView BackgroundColor="#5e5d99" CornerRadius="0,0,20,20" HeightRequest="30" VerticalOptions="End" />
+        
+
+
+
+        <!-- Grid conteniendo los cuadros -->
+        <Grid Margin="0,30,0,0" Padding="20" RowSpacing="10" ColumnSpacing="10">
+
+            <!-- Definir tres columnas -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Definir las filas explícitamente -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Primer cuadro (Fila 0, Columna 0) -->
+            <Frame Grid.Row="0" Grid.Column="0" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout BackgroundColor="#403e78">
+                    <Image Source="velocidad.png" HeightRequest="100" WidthRequest="100" Margin="0,-10,0,0"  />
+                    <Button Text="Velocidad" Clicked="GoToPage1" HorizontalOptions="Center" Margin="0,-5,0,0" WidthRequest="115" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Segundo cuadro (Fila 0, Columna 1) -->
+            <Frame Grid.Row="0" Grid.Column="1" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout BackgroundColor="#403e78">
+                    <Image Source="tiempo.png" HeightRequest="100" WidthRequest="100" Margin="0,-10,0,0"  />
+                    <Button Text="Tiempo" Clicked="GoToPage2" HorizontalOptions="Center" Margin="0,-5,0,0" WidthRequest="115" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Tercer cuadro (Fila 0, Columna 2) -->
+            <Frame Grid.Row="0" Grid.Column="3" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout BackgroundColor="#403e78">
+                    <Image Source="distancia.png" HeightRequest="100" WidthRequest="100" Margin="0,-10,0,0"  />
+                    <Button Text="Distancia" Clicked="GoToPage3" HorizontalOptions="Center" Margin="0,-5,0,0" WidthRequest="115" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Cuarto cuadro (Fila 1, Columna 0) -->
+            <Frame Grid.Row="1" Grid.Column="0" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout BackgroundColor="#403e78">
+                    <Image Source="pendiente.png" HeightRequest="100" WidthRequest="100" Margin="0,-10,0,0"  />
+                    <Button Text="Pendiente" Clicked="GoToPage4" HorizontalOptions="Center" Margin="0,-5,0,0" WidthRequest="115" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Quinto cuadro (Fila 1, Columna 1) -->
+            <Frame Grid.Row="1" Grid.Column="1" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout>
+                    <Image Source="converson.png" HeightRequest="100" WidthRequest="80" />
+                    <Label Text="Cuadro 5" HorizontalOptions="Center" VerticalOptions="End" />
+                    <Button Text="Conversiones" Clicked="GoToPage5" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Sexto cuadro (Fila 1, Columna 2) -->
+            <Frame Grid.Row="1" Grid.Column="2" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="130" WidthRequest="115">
+                <VerticalStackLayout>
+                    <Image Source="image6.jpg" HeightRequest="100" WidthRequest="80" />
+                    <Label Text="Cuadro 6" HorizontalOptions="Center" VerticalOptions="End" />
+                    <Button Text="Ir a página 6" Clicked="GoToPage6" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </Grid>
+
+    </VerticalStackLayout>
+
+</ContentPage>

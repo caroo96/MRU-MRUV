@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionFisica.MainPage"
+             BackgroundColor="#5e5d99">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="0,0"
+            Spacing="0">
+            
+            <Image
+                Source="portada.png"
+                HeightRequest="350"
+                Aspect="AspectFit"
+                SemanticProperties.Description="logo"  /> 
+            
+            <Label
+                Text="Vehicle Metrics"
+                FontFamily="LemonFruit"
+                FontSize="65"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" 
+                TextColor="White"/>
+
+           
+
+            <Entry 
+                x:Name="NameEntry"
+                Style="{StaticResource SubHeadline}"
+                Placeholder="¿Cuál es tu nombre?"
+                FontFamily="OpenSans-Regular"
+                FontSize="17"                  
+                TextColor="White"
+                PlaceholderColor="white"                             
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                WidthRequest="280"
+                Margin="0,100,0,0" 
+                BackgroundColor="Transparent" />
+
+            
+
+
+            <Button 
+                x:Name="BtnIngresar"
+                Text="Ingresar" 
+                FontFamily="OpenSans-Regular"
+                FontSize="20"
+                BackgroundColor="#f19f32"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="Button_Clicked_1"
+                HorizontalOptions="Center" 
+                WidthRequest="300" 
+                CornerRadius="25"
+                Margin="0,0,0,0" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

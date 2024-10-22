@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionFisica.Page5"
+             Title="Conversiones"
+             BackgroundColor="White">
+    
+    <VerticalStackLayout>
+        <Frame BackgroundColor="#5e5d99" CornerRadius="0" Padding="0" HasShadow="True" HeightRequest="90">
+            <VerticalStackLayout HorizontalOptions="Start">
+                <Label 
+                  x:Name="Conversiones"  
+                  FontFamily="SimpleDay"
+                  FontSize="24" 
+                  TextColor="White" 
+                  HorizontalOptions="Start" 
+                  VerticalOptions="Center" />
+
+                <Label
+                  Text="Realiza tus conversiones"       
+                  FontSize="16"
+                  SemanticProperties.Description="slogan"
+                  TextColor="White"
+                  HorizontalOptions="Start" 
+                  Margin="10,10,0,0" />
+            </VerticalStackLayout>
+        </Frame>
+        <BoxView BackgroundColor="#f19f32" HeightRequest="2" HorizontalOptions="FillAndExpand" VerticalOptions="End" />
+        <BoxView BackgroundColor="#5e5d99" CornerRadius="0,0,20,20" HeightRequest="30" VerticalOptions="End" />
+
+
+        <Grid Margin="0,30,0,0" Padding="20" RowSpacing="10" ColumnSpacing="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="120" WidthRequest="370">
+                <HorizontalStackLayout BackgroundColor="#5e5d99">
+                    <Image Source="nkg.png" HeightRequest="100" WidthRequest="100" Margin="10,0,0,0" />
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Button Text="N - Kg" Clicked="GoToConversion" HorizontalOptions="Start" HeightRequest="120" WidthRequest="260" FontSize="16"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Segundo cuadro (Fila 1, Columna 0) -->
+            <Frame Grid.Row="1" Grid.Column="0" Padding="0" BorderColor="Gray" CornerRadius="15" HeightRequest="120" WidthRequest="370">
+                <HorizontalStackLayout BackgroundColor="#5e5d99"  >
+                    <Image Source="imagen.png" HeightRequest="100" WidthRequest="100" Margin="10,0,0,0" />
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Button Text="Min - Seg" Clicked="GoToConversion" HorizontalOptions="Start" HeightRequest="120" WidthRequest="260" FontSize="16" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>

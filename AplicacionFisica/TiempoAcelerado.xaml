@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionFisica.TiempoAcelerado"
+             Title="Tiempo acelerado"
+             BackgroundColor="White">
+    
+    <VerticalStackLayout>
+        <Frame BackgroundColor="#5e5d99" CornerRadius="0" Padding="10" HasShadow="True" HeightRequest="130">
+            <VerticalStackLayout HorizontalOptions="Start">
+                <Label 
+                 x:Name="Tiempo"  
+                 FontFamily="SimpleDay"
+                 FontSize="24" 
+                 TextColor="White" 
+                 HorizontalOptions="Start" 
+                 VerticalOptions="Center" />
+
+                <Label
+                 Text="Si te mueves con aceleración constante, aquí podrás calcular tu tiempo de manera sencilla y precisa."            
+                 FontSize="16"
+                 SemanticProperties.Description="slogan"
+                 TextColor="White"
+                 HorizontalOptions="Start" 
+                 Margin="10,0,0,0" />
+            </VerticalStackLayout>
+        </Frame>
+        <BoxView BackgroundColor="#f19f32" HeightRequest="2" HorizontalOptions="FillAndExpand" VerticalOptions="End" />
+        <BoxView BackgroundColor="#5e5d99" CornerRadius="0,0,20,20" HeightRequest="30" VerticalOptions="End" />
+        <VerticalStackLayout Padding="50" Spacing="20" HorizontalOptions="Center">
+
+
+
+            <Frame 
+             BackgroundColor="Transparent" 
+             BorderColor="Transparent" 
+             Padding="0">
+                <VerticalStackLayout>
+                    <Entry 
+                     x:Name="DistanceEntry"                 
+                     Placeholder="Distancia (metros)"
+                     PlaceholderColor="Black"
+                     Keyboard="Numeric"
+                     WidthRequest="280"
+                     HeightRequest="50"
+                     HorizontalOptions="Center"
+                     BackgroundColor="Transparent"
+                     TextColor="Black" />
+
+                    <BoxView 
+                     HeightRequest="2" 
+                     BackgroundColor="Black" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="End" 
+                     Margin="0,-9,0,0" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame 
+             BackgroundColor="Transparent" 
+             BorderColor="Transparent" 
+             Padding="0">
+                
+                <VerticalStackLayout>
+                    <Entry 
+                     x:Name="VelInicialEntry"
+                     Placeholder="Velocidad inicial m/s"
+                     PlaceholderColor="Black"
+                     Keyboard="Numeric"         
+                     WidthRequest="280"
+                     HeightRequest="50"
+                     HorizontalOptions="Center"
+                     BackgroundColor="Transparent"
+                     TextColor="Black" />
+
+                    <BoxView 
+                     HeightRequest="2" 
+                     BackgroundColor="Black" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="End"
+                     Margin="0,-9,0,0"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame 
+             BackgroundColor="Transparent" 
+             BorderColor="Transparent" 
+             Padding="0">
+             
+                <VerticalStackLayout>
+
+                    <Entry 
+                     x:Name="AccelerationEntry"            
+                     Placeholder="Aceleración (m/s²)"
+                     PlaceholderColor="Black"
+                     Keyboard="Numeric"
+                     WidthRequest="280"
+                     HorizontalOptions="Center"
+                     BackgroundColor="Transparent"
+                     TextColor="Black" />
+
+                    <BoxView 
+                     HeightRequest="2" 
+                     BackgroundColor="Black" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="End" 
+                     Margin="0,-9,0,0" />
+                </VerticalStackLayout>
+            </Frame>
+
+
+            
+
+            <Frame 
+      BackgroundColor="Transparent" 
+      BorderColor="Transparent" 
+      Padding="0">
+                <VerticalStackLayout>
+                    <Entry 
+                     x:Name="ResultEntry"
+                     Placeholder="Resultado"
+                     PlaceholderColor="Black"
+                     Keyboard="Numeric"         
+                     WidthRequest="300"
+                     HeightRequest="50"
+                     HorizontalOptions="Center"
+                     BackgroundColor="#b9b8f3"
+                     TextColor="Black" />
+
+
+
+                    <BoxView 
+                     HeightRequest="2" 
+                     BackgroundColor="Black" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="End"
+                     Margin="0,-9,0,0"/>
+                </VerticalStackLayout>
+            </Frame>
+
+
+            <!-- Botón para calcular -->
+            <Button 
+             x:Name="CalculateButton"
+             Text="Calcular"
+             FontFamily="OpenSans-Regular"
+             FontSize="20"
+             BackgroundColor="#f19f32"
+             SemanticProperties.Hint="Counts the number of times you click"
+             Clicked="Button_Clicked_Tiempo"
+             HorizontalOptions="Center" 
+             WidthRequest="300" 
+             CornerRadius="50"
+             Margin="0,10,0,0" />
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
