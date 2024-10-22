@@ -1,0 +1,134 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AplicacionFisica
+build_property.ProjectDir = C:\Users\WASolutions\Source\Repos\AplicacionFisica\AplicacionFisica\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Conversiones.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Conversiones.xaml
+build_metadata.AdditionalFiles.TargetPath = Conversiones.xaml
+build_metadata.AdditionalFiles.RelativePath = Conversiones.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/DistanciaAcelerada.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.DistanciaAcelerada.xaml
+build_metadata.AdditionalFiles.TargetPath = DistanciaAcelerada.xaml
+build_metadata.AdditionalFiles.RelativePath = DistanciaAcelerada.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/DistanciaConstante.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.DistanciaConstante.xaml
+build_metadata.AdditionalFiles.TargetPath = DistanciaConstante.xaml
+build_metadata.AdditionalFiles.RelativePath = DistanciaConstante.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Menu.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page1.xaml
+build_metadata.AdditionalFiles.TargetPath = Page1.xaml
+build_metadata.AdditionalFiles.RelativePath = Page1.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page2.xaml
+build_metadata.AdditionalFiles.TargetPath = Page2.xaml
+build_metadata.AdditionalFiles.RelativePath = Page2.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page3.xaml
+build_metadata.AdditionalFiles.TargetPath = Page3.xaml
+build_metadata.AdditionalFiles.RelativePath = Page3.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page4.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page4.xaml
+build_metadata.AdditionalFiles.TargetPath = Page4.xaml
+build_metadata.AdditionalFiles.RelativePath = Page4.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page5.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page5.xaml
+build_metadata.AdditionalFiles.TargetPath = Page5.xaml
+build_metadata.AdditionalFiles.RelativePath = Page5.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Page6.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Page6.xaml
+build_metadata.AdditionalFiles.TargetPath = Page6.xaml
+build_metadata.AdditionalFiles.RelativePath = Page6.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/TiempoAcelerado.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.TiempoAcelerado.xaml
+build_metadata.AdditionalFiles.TargetPath = TiempoAcelerado.xaml
+build_metadata.AdditionalFiles.RelativePath = TiempoAcelerado.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/TiempoConstante.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.TiempoConstante.xaml
+build_metadata.AdditionalFiles.TargetPath = TiempoConstante.xaml
+build_metadata.AdditionalFiles.RelativePath = TiempoConstante.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/VelocidadAcelerada.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.VelocidadAcelerada.xaml
+build_metadata.AdditionalFiles.TargetPath = VelocidadAcelerada.xaml
+build_metadata.AdditionalFiles.RelativePath = VelocidadAcelerada.xaml
+
+[C:/Users/WASolutions/Source/Repos/AplicacionFisica/AplicacionFisica/VelocidadConstante.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AplicacionFisica.VelocidadConstante.xaml
+build_metadata.AdditionalFiles.TargetPath = VelocidadConstante.xaml
+build_metadata.AdditionalFiles.RelativePath = VelocidadConstante.xaml
